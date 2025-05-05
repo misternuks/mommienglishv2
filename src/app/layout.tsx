@@ -1,5 +1,5 @@
 import "./globals.css";
-import { Zen_Maru_Gothic, Shippori_Mincho } from "next/font/google";
+import { Zen_Maru_Gothic, Shippori_Mincho_B1 } from "next/font/google";
 
 const zenMaruGothic = Zen_Maru_Gothic({
   variable: "--font-zen-maru-gothic",
@@ -8,8 +8,8 @@ const zenMaruGothic = Zen_Maru_Gothic({
   display: "swap"
 });
 
-const shipporiMincho = Shippori_Mincho({
-  variable: "--shippori-mincho",
+const shipporiMinchoB1 = Shippori_Mincho_B1({
+  variable: "--shippori-mincho-b1",
   subsets: ["latin"],
   weight: "400",
   display: "swap"
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${zenMaruGothic.variable} ${shipporiMincho.variable} antialiased`}
+        className={`${zenMaruGothic.variable} ${shipporiMinchoB1.variable} antialiased`}
       >
         {children}
       </body>

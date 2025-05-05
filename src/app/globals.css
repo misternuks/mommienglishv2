@@ -2,5 +2,8 @@
 
 @theme {
   --font-zen-maru-gothic: 'Zen Maru Gothic', sans-serif;
-  --font-shippori-mincho-b1: 'Shippori Mincho', serif;
+  --font-shippori-mincho-b1: 'Shippori Mincho B1', serif;
+
+  --color-brand: #FF7D6D;
+
 }
