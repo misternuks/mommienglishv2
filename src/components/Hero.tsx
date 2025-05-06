@@ -13,17 +13,17 @@ export default function Hero() {
             className=""
           />
         </div>
-        <div>
-          <h1 className="font-shippori-mincho-b1 text-6xl text-shadow-[4px_5px_7px_rgba(0,0,0,0.25)]">あなたの英語習慣を<br/>
-            デザインします
-          </h1>
+        <div className="w-full flex flex-col font-shippori-mincho-b1 text-6xl text-shadow-[4px_5px_7px_rgba(0,0,0,0.25)]">
+          <h1 className="">あなたの英語習慣を</h1>
+          <h1 className="text-right">デザインします</h1>
         </div>
         <div>
-          <button className="bg-brand text-white font-zen-maru-gothic text-xl font-bold py-6 px-8 rounded-full border-none drop-shadow-lg">お問い合わせはこちら
-          </button>
+          <a href="#" className="bg-brand text-white font-zen-maru-gothic text-xl font-bold py-6 px-8 rounded-full border-none drop-shadow-lg hover:bg-brand/50 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-brand transition">
+            お問い合わせはこちら
+          </a>
         </div>
       </div>
-      <div className="flex items-last justify-center">
+      <div className="flex w-1/2 items-last justify-center">
         <Image
           src="/hero_image.png"
           alt="Photo of Moena"
