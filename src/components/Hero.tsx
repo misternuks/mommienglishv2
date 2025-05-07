@@ -2,8 +2,8 @@ import Image from "next/image"
 
 export default function Hero() {
   return (
-    <section className="bg-[url(/hero_background.png)] h-[800px] flex">
-      <div className="p-10 flex flex-col items-start justify-around w-1/2">
+    <section className="w-full bg-[url(/hero_background.png)] min-h-[800px] flex flex-wrap">
+      <div className="p-10 flex flex-col items-center justify-around gap-24">
         <div>
           <Image
             src="/logo_colorful.png"
@@ -23,7 +23,7 @@ export default function Hero() {
           </a>
         </div>
       </div>
-      <div className="flex w-1/2 items-last justify-center">
+      <div className="flex items-end justify-end w-1/2">
         <Image
           src="/hero_image.png"
           alt="Photo of Moena"
