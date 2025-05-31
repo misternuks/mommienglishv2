@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Mission() {
   return (
-    <section className="w-full flex flex-col">
+    <section className="w-full flex flex-col mb-20">
       <div className="flex flex-col align-center justify-center">
         <h5 className="text-center text-brand-text tracking-wider font-shippori-mincho-b1 font-bold text-3xl ">Our <span className="text-brand">M</span>ission</h5><br />
-        <div className="border-b-2 border-dashed border-brand-text w-25 self-center mb-20">
+        <div className="border-b-2 border-dashed border-brand-text w-25 self-center mb-15">
         </div>
       </div>
-      <div className="flex flex-wrap items-stretch justify-around bg-brand w-full min-h-[600px] p-8 py-20 font-bold font-zen-maru-gothic gap-10">
+      <div className="flex flex-wrap items-stretch justify-around bg-brand w-full h-auto px-15 py-20 font-bold font-zen-maru-gothic gap-10 mb-15">
         <div className="flex items-start justify-start gap-4 tracking-widest text-xl">
           <div className="bg-white px-4 py-5 pb-6 rounded-lg text-brand [writing-mode:vertical-rl]">
             英語習慣化プログラムです
@@ -42,7 +42,7 @@ export default function Mission() {
           />
         </div>
       </div>
-      <div className="flex flex-wrap gap-8 px-16 py-40">
+      <div className="flex flex-wrap gap-8 px-15 py-20">
         <div className="flex flex-col gap-4 font-shippori-mincho-b1 mb-8">
           <Image
             src="/mission_pic_01.png"
