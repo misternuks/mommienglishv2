@@ -9,8 +9,8 @@ export default function Service() {
         </div>
       </div>
 
-      <div className="flex flex-wrap gap-8 p-16">
-        <div className="flex flex-col gap-4 font-shippori-mincho-b1 mb-8">
+      <div className="flex flex-wrap gap-8 p-16 items-start justify-center">
+        <div className="flex flex-col items-center gap-4 font-shippori-mincho-b1 mb-8">
           <h5 className="text-brand text-xl text-center">
             おうち英語習慣化コーチング
           </h5>

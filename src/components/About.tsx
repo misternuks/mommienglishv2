@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="w-full flex flex-col mb-20">
+    <section className="w-full flex flex-col mb-40">
       <div className="flex flex-col align-center justify-center">
         <h5 className="text-center text-brand-text tracking-wider font-shippori-mincho-b1 font-bold text-3xl ">About <span className="text-brand">m</span>e</h5><br />
         <div className="border-b-2 border-dashed border-brand-text w-25 self-center">
@@ -10,7 +10,7 @@ export default function About() {
       </div>
 
       <div className="flex flex-wrap p-16 items-start justify-center gap-16">
-        <div className="flex-1 flex items-center justify-center min-w-[500px]">
+        <div className="flex items-center justify-center min-w-[500px]">
           <Image
             src="/about_pic.png"
             alt="Photo of Moena"
@@ -19,11 +19,11 @@ export default function About() {
             className=""
           />
         </div>
-        <div className="font-shippori-mincho-b1 flex-1 flex flex-col items-start justify-start min-w-[500px]">
-          <p className="whitespace-pre-line text-xl/relaxed mb-5">
+        <div className="font-shippori-mincho-b1 flex flex-col items-center justify-start w-[500px]">
+          <p className="whitespace-pre-line text-xl/relaxed mb-5 self-start">
             {"MommiEnglish代表\nおうち英語習慣化コーチ\nマイナー萌惠奈\nMoena Miner"}
           </p>
-          <p className="text-sm max-w-[500px]">
+          <p className="text-sm">
             英語コーチ・英会話講師・英語コミュニティ運営・webデザイナー・ファシリテーターの
             ５つの仕事を独自の超習慣化術で掛け持ちし、2児の母としても現役でバイリンガル育児中。<br /><br />
 
