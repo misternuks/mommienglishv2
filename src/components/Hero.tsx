@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Hero() {
   return (
     <section className="w-full bg-[url(/hero_background.png)] bg-cover min-h-[800px] flex flex-wrap">
-      <div className="p-10 flex flex-col items-center justify-around gap-24 flex-1 min-w-[500px]">
+      <div className="p-10 flex flex-col items-center justify-around gap-24 flex-wrap">
         <div>
           <Image
             src="/logo_colorful.png"
@@ -17,13 +17,13 @@ export default function Hero() {
           <h1 className="">あなたの英語習慣を</h1>
           <h1 className="text-right">デザインします</h1>
         </div>
-        <div>
-          <a href="#" className="bg-brand text-white font-zen-maru-gothic text-xl font-bold py-6 px-8 rounded-full border-none drop-shadow-lg hover:bg-brand/50 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-brand transition">
+        <div className="bg-brand text-white font-zen-maru-gothic text-xl font-bold py-6 px-8 rounded-full border-none drop-shadow-lg hover:bg-brand/50 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-brand transition min-w-[265px]">
+          <a href="#" >
             お問い合わせはこちら
           </a>
         </div>
       </div>
-      <div className="flex items-end justify-center flex-1 min-w-[500px]">
+      <div className="flex items-end justify-center">
         <Image
           src="/hero_image.png"
           alt="Photo of Moena"

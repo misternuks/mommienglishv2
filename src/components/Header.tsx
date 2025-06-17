@@ -1,7 +1,7 @@
 export default function Header() {
   return (
-    <header className="w-full bg-white text-brand-text text-xl p-8 flex justify-center items-center font-shippori-mincho-b1 mb-20">
-      <nav className="w-5xl space-x-4 flex justify-around items-center ">
+    <header className="w-full bg-white text-brand-text text-xl p-4 flex justify-center items-center font-shippori-mincho-b1 mb-20">
+      <nav className="w-full flex justify-evenly items-center gap-2 px-8 flex-wrap">
         <a className="hover:text-brand transition-colors" href="#">Home</a>
         <a className="hover:text-brand transition-colors" href="#mission">Our mission</a>
         <a className="hover:text-brand transition-colors" href="#service">Service</a>
