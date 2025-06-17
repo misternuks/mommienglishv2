@@ -61,7 +61,7 @@ const voices = [
 
 export default function Voice() {
   return (
-    <section className="w-full flex flex-col mb-20">
+    <section id="voice" className="w-full flex flex-col mb-20">
       <div className="flex flex-col align-center justify-center">
         <h5 className="text-center text-brand-text tracking-wider font-shippori-mincho-b1 font-bold text-3xl ">
           V<span className="text-brand">o</span>ice

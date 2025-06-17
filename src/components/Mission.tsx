@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Mission() {
   return (
-    <section className="w-full flex flex-col mb-20">
+    <section id="mission" className="w-full flex flex-col mb-20">
       <div className="flex flex-col">
         <h5 className="text-center text-brand-text tracking-wider font-shippori-mincho-b1 font-bold text-3xl ">Our <span className="text-brand">M</span>ission</h5><br />
         <div className="border-b-2 border-dashed border-brand-text w-25 self-center mb-15">
