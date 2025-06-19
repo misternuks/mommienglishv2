@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <section className="w-full bg-[url(/hero_background.png)] bg-cover min-h-[800px] flex flex-col lg:flex-row items-center justify-center px-6 gap-12">
+    <section className="w-full bg-[url(/hero_background.png)] bg-cover lg:min-h-[800px] flex flex-col lg:flex-row items-center justify-center px-6 gap-12">
       {/* Left Content: Logo + Headings + CTA */}
       <div className="flex flex-col items-center justify-center gap-10 text-center lg:items-start lg:text-left max-w-xl">
         {/* Logo */}
