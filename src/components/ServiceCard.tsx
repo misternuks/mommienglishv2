@@ -30,7 +30,9 @@ export default function ServiceCard({ title, image, alt, text, button}: ServiceC
 
       {button?.btnText && (
         <a
-          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          href={button?.href}
           className={`${button?.btnClass} text-white font-zen-maru-gothic text-lg sm:text-xl font-bold py-4 px-6 mt-8 rounded-full border-none drop-shadow-lg hover:bg-brand/50 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-brand transition min-w-[200px] text-center self-center`}
         >
           {button?.btnText}

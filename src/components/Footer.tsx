@@ -3,7 +3,7 @@ import Image from "next/image"
 export default function Footer() {
   return(
     <footer className="w-full bg-brand min-h-[357px] grid grid-cols-1 lg:grid-cols-2 items-stretch p-16 gap-8 xl:gap-40">
-      <div className="lg:justify-self-end flex flex-col text-white max-w-[600px] gap-8">
+      <div className="lg:justify-self-end flex flex-col text-white max-w-[600px] gap-2 lg:gap-8">
         <div className="">
           <Image
             src="/logo_white.png"
@@ -26,7 +26,7 @@ export default function Footer() {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
                 viewBox="0 0 24 24"
-                className="w-16 h-16"
+                className="w-16gap-2 lg: h-16"
               >
                 <path d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1
                   16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75
@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="lg:justify-self-start flex flex-col text-black max-w-[600px] gap-8">
+      <div className="lg:justify-self-start flex flex-col text-black max-w-[600px] gap-2 lg:gap-8">
         <div className="h-[70px] flex items-center justify-start w-auto">
           <Image
             src="/logo_lumineglyph.png"

@@ -22,10 +22,14 @@ export default function Hero() {
 
         {/* CTA */}
         <a
-          href="#"
+          href="
+            https://mommienglish-s2.studio.site/?fbclid=PAZXh0bgNhZW0CMTEAAaeYgkubwFipKozz1Jq334biJqjK_iDPcjuP-sZoS3JF-NjmMG41i4bVS7Xu2A_aem_0bUQC5KgcurxlH-8qkekjQ
+          "
+          target="_blank"
+          rel="noopener noreferrer"
           className="bg-brand text-white font-zen-maru-gothic text-lg sm:text-xl font-bold py-4 px-6 rounded-full border-none drop-shadow-lg hover:bg-brand/50 focus-visible:outline focus-visible:outline-offset-2 focus-visible:outline-brand transition min-w-[200px] text-center"
         >
-          お問い合わせはこちら
+          無料で動画特典を受け取る
         </a>
       </div>
 

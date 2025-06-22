@@ -7,6 +7,7 @@ const services = [
     alt: "service card image 1",
     text: "「英語をやる毎日」ではなく「英語がある毎日」を徹底的に定着させます。マンツーマンレッスンは月に４回。不定期で同期や卒業生とのグループレッスンを実施します。オリジナルのハビットトラッカーや、500以上のすぐに使える英語フレーズ集を受講生限定にお渡ししています。また、進捗状況を確実に把握するため、Notionアプリ(無料)を使用し、課題の提出漏れや挫折のないようにサポートいたします。",
     button: {
+      href: "https://mommienglish-s2.studio.site/?fbclid=PAZXh0bgNhZW0CMTEAAaeYgkubwFipKozz1Jq334biJqjK_iDPcjuP-sZoS3JF-NjmMG41i4bVS7Xu2A_aem_0bUQC5KgcurxlH-8qkekjQ",
       btnText: "無料で動画特典を受け取る",
       btnClass: "bg-brand"
     }
@@ -18,6 +19,7 @@ const services = [
     alt: "service card image 2",
     text: "英語を“やらなきゃ”から“やりたい”へ。Cozy English Loungeは、英語をもっと気軽に、もっと楽しく、あなたのペースで続けられるオンラインコミュニティです。Discord(無料)を使用して、メンバーと交流ができたりプライベートルームで講師に質問や相談などできます。 忙しい日々の中でも、「ちょっと英語にふれたいな」と思ったときに、 ふわっと英語がある場所です。英語を勉強する場所じゃなくて、英語がそばにある暮らしを一緒に育てていく場所です。",
     button: {
+      href: "https://www.notion.so/Cozy-English-Lounge-1fd7d6f0255880f1b7f3ebd82195658c",
       btnText: "view more",
       btnClass: "bg-[#B5937F]"
     }

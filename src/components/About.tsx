@@ -14,12 +14,11 @@ export default function About() {
       {/* Image and Text Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Image */}
-        <div className="flex justify-center lg:justify-end">
+        <div className="relative aspect-square w-full max-w-[500px] justify-self-center lg:justify-self-end">
           <Image
             src="/about_pic.png"
             alt="Photo of Moena"
-            width={500}
-            height={500}
+            fill
             className=""
           />
         </div>
