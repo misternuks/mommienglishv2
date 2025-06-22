@@ -12,7 +12,7 @@ export default function About() {
       </div>
 
       {/* Image and Text Grid */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
         {/* Image */}
         <div className="flex justify-center lg:justify-end">
           <Image
@@ -25,7 +25,7 @@ export default function About() {
         </div>
 
         {/* Text Block */}
-        <div className="flex flex-col items-center text-center lg:items-start lg:text-left font-shippori-mincho-b1 max-w-[500px] mx-auto">
+        <div className="flex flex-col font-shippori-mincho-b1 max-w-[500px] lg:mx-0 mx-auto">
           <p className="whitespace-pre-line text-xl leading-relaxed mb-6">
             {"MommiEnglish代表\nおうち英語習慣化コーチ\nマイナー萌惠奈\nMoena Miner"}
           </p>

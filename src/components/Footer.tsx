@@ -2,9 +2,9 @@ import Image from "next/image"
 
 export default function Footer() {
   return(
-    <footer className="w-full bg-brand min-h-[357px] flex items-center justify-evenly flex-wrap p-16 gap-8">
-      <div className=" flex flex-col text-white max-w-[600px] gap-8">
-        <div>
+    <footer className="w-full bg-brand min-h-[357px] grid grid-cols-1 lg:grid-cols-2 items-stretch p-16 gap-8 xl:gap-40">
+      <div className="lg:justify-self-end flex flex-col text-white max-w-[600px] gap-8">
+        <div className="">
           <Image
             src="/logo_white.png"
             alt="white MommiEnglish logo"
@@ -13,8 +13,8 @@ export default function Footer() {
             className=""
           />
         </div>
-        <div className="flex items-center gap-16">
-          <div className="flex items-center gap-4">
+        <div className="flex items-center gap-8">
+          <div className="flex flex-col items-center gap-1">
             <a
               href="https://www.instagram.com/mommienglish"
               target="_blank"
@@ -40,25 +40,29 @@ export default function Footer() {
             </a>
             <span>Follow me!</span>
           </div>
-
-          おうち英語習慣化コーチング<br />
-          英語コミュニティー Cozy English Lounge 運営<br />
-          MommiEnglish オリジナル教材制作
+          <div className="">
+            おうち英語習慣化コーチング<br />
+            英語コミュニティー Cozy English Lounge 運営<br />
+            MommiEnglish オリジナル教材制作
+          </div>
         </div>
       </div>
 
-      <div className="flex flex-col text-black max-w-[600px] gap-8">
-        <Image
-          src="/logo_lumineglyph.png"
-          alt="black Lumineglyph logo"
-          width={373}
-          height={70}
-          className=""
-        />
-
-        web・グラフィックデザイン / バナー制作 / SNSデザイン代行<br />
-        STUDIO / Figma / WordPress / Canva / Notion /
-        HTML / CSS / JavaScript / Next.js /  Git / GitHub / Ruby on Rails
+      <div className="lg:justify-self-start flex flex-col text-black max-w-[600px] gap-8">
+        <div className="h-[70px] flex items-center justify-start w-auto">
+          <Image
+            src="/logo_lumineglyph.png"
+            alt="black Lumineglyph logo"
+            width={373}
+            height={70}
+            className=""
+          />
+        </div>
+        <div>
+          web・グラフィックデザイン / バナー制作 / SNSデザイン代行<br />
+          STUDIO / Figma / WordPress / Canva / Notion /
+          HTML / CSS / JavaScript / Next.js /  Git / GitHub / Ruby on Rails
+        </div>
       </div>
 
     </footer>
