@@ -62,14 +62,16 @@ const voices = [
 export default function Voice() {
   return (
     <section id="voice" className="w-full flex flex-col mb-20">
+      {/* section title */}
       <div className="flex flex-col align-center justify-center">
-        <h5 className="text-center text-brand-text tracking-wider font-shippori-mincho-b1 font-bold text-3xl ">
+        <h5 className="text-center text-brand-text tracking-wider font-shippori-mincho-b1 font-bold text-3xl">
           V<span className="text-brand">o</span>ice
         </h5><br />
         <div className="border-b-2 border-dashed border-brand-text w-25 self-center mb-20">
         </div>
       </div>
-      <div className="flex flex-wrap items-center justify-around bg-gradient-to-br from-brand to-white w-full h-auto p-8 py-20 font-bold font-zen-maru-gothic gap-10">
+      {/* card area */}
+      <div className="place-items-center items-stretch grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 bg-gradient-to-br from-brand to-white w-full h-auto p-8 py-20 font-bold font-zen-maru-gothic gap-8">
         {voices.map((voice, index) => (
           <VoiceCard
             key={index}

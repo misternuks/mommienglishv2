@@ -10,7 +10,7 @@ type VoiceCardProps = {
 
 export default function VoiceCard({ image, alt, name, text }: VoiceCardProps) {
   return (
-    <div className="relative w-[400px] h-[360px] bg-[#fffef7] drop-shadow-lg flex flex-col p-8 gap-6 font-extralight">
+    <div className="max-w-[400px] bg-[#fffef7] drop-shadow-lg flex flex-col p-8 gap-6 font-extralight">
       <div className="flex items-center justify-start gap-4">
         <Image
           src={image}
