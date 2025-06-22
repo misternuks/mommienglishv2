@@ -14,7 +14,7 @@ export default function Mission() {
       {/* Horizontal Banner */}
       <div className="flex flex-col justify-center lg:flex-row flex-wrap items-center bg-brand px-4 md:px-24 py-12 gap-8 lg:gap-24 lg:min-h-[600px] text-white font-zen-maru-gothic text-center lg:text-left">
         {/* Vertical Writings */}
-        <div className="flex gap-4 items-start justify-center">
+        <div className="flex gap-4 items-start justify-center text-2xl">
           <div className="bg-white text-brand [writing-mode:vertical-rl] px-4 py-6 rounded-lg">
             英語習慣化プログラムです
           </div>
@@ -24,13 +24,13 @@ export default function Mission() {
         </div>
 
         {/* Main Message */}
-        <div className="text-2xl sm:text-3xl font-bold">
+        <div className="text-4xl font-bold">
           子どもと一緒に<br />
           親子の英会話を楽しむ
         </div>
 
         {/* Paragraph */}
-        <div className="text-base sm:text-lg max-w-xl leading-relaxed text-left">
+        <div className="text-lg md:text-2xl max-w-xl leading-relaxed text-left">
           留学してから気づいた、実用性のない中学・高校英語。
           子どもができてから知った、ママと子どもの信頼関係。
           国際寮で身近に感じた、学生たちの英語への向き合い方と成長。

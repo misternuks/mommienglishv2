@@ -15,7 +15,7 @@ export default function Hero() {
         />
 
         {/* Heading */}
-        <div className="font-shippori-mincho-b1 text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-shadow-[4px_5px_7px_rgba(0,0,0,0.25)] leading-tight">
+        <div className="font-shippori-mincho-b1 text-4xl md:text-5xl lg:text-6xl text-shadow-[4px_5px_7px_rgba(0,0,0,0.25)] leading-tight">
           <h1 className="">あなたの英語習慣を</h1>
           <h1 className="text-right lg:text-left">デザインします</h1>
         </div>
@@ -34,13 +34,12 @@ export default function Hero() {
       </div>
 
       {/* Right Side Image */}
-      <div className="sm:self-center lg:self-end max-w-sm sm:max-w-md lg:max-w-xl">
+      <div className="relative aspect-4/5 w-full max-w-[300px] lg:max-w-[600px] lg:self-end self-center">
         <Image
           src="/hero_image.png"
           alt="Photo of Moena"
-          width={622}
-          height={746}
-          className="w-full h-auto object-cover"
+          fill
+          className="object-cover"
         />
       </div>
     </section>
